@@ -1,0 +1,98 @@
+@media (max-width:420px){
+	/*header*/
+	.navbar-header .logo{margin-left: 40px;
+    margin-top: 5px;}
+	.mobile img{height: 200px;
+    margin: auto;
+    padding-top: 50px;
+	padding-right: 28px;}
+	.mobileData,.desktopData {padding: 0px;margin: 0px}
+	.mobileData h2,.webData h2, .desktopData h2{font-size: 40px}
+	.mobileData h2 span,.webData h2 span,.desktopData h2 span{font-size: 35px}
+	.mobileData p,.webData p,.desktopData p{margin: 9% auto}
+	.web img{ margin-top: 8%}
+	.desktop img {
+    width: 160px;
+		margin: auto;padding-top: 30px}
+	.contact h2{font-size: 25px;margin-top: 87px}
+	.formContainer input{margin-bottom: 22px;}
+	.theLast{padding: 30px 10px;}
+	.theLast p{padding-top: 5px;
+    padding-left: 12px;}
+	.team h2{font-size: 45PX}
+	hr{margin-bottom: 2px;}
+	.formContainer button {
+		margin: 0px auto}
+}
+	
+}
+@media (min-width: 421px) and (max-width:767px) {
+	.navbar-header .logo{margin-left: 20px}
+	.navbar-toggle{margin-top: 3%}
+	.team h2{font-size: 45PX}
+	.formContainer input{margin-bottom: 25px;}
+	.mobile img{height: 240px;
+    margin: auto;
+    padding-top: 50px;
+	padding-right: 28px;}
+	.mobileData,.desktopData {padding: 0px;margin: 0px}
+	.mobileData h2,.webData h2, .desktopData h2{font-size: 45px}
+	.mobileData h2 span,.webData h2 span,.desktopData h2 span{font-size: 45px}
+	.mobileData p{margin: 6% auto}
+	.webData p,.desktopData p{margin: 0 auto;padding-top: 38px}
+	.web img{ margin-top: 10%}
+	.webData h2, .webData h2 span{padding: 9% 0 0 2%;}
+	.desktop img {
+    width: 240px;
+		margin: auto;padding-top: 30px}
+	.web img{height: 200px;
+    margin: 40px auto;}
+	.contact h2{font-size: 35px}
+	.formContainer input{margin-bottom: 28px;}
+	.theLast{padding: 30px 10px;}
+	.theLast p{padding-top: 20px;
+    padding-left: 12px;}
+	.team h2{font-size: 45PX}
+	hr{margin-top: 40px;
+    margin-bottom: 20px;}
+}
+	
+
+
+@media (min-width:768px) and (max-width:991px) {
+/*header*/
+	.nav{margin-right: 35px;margin-top: 8px}
+	.nav li a {margin-left: 20px}
+	.arrow{width: 6%;
+    height: 12%;top: 95%}
+	.arrow .nonClicked {
+    transform: rotate(134deg);
+    margin-top: 0em;
+    margin-right: 0.5em;
+}
+	.arrow .nonClicked a, .clicable a {
+		font-size: 2em;}
+	.formContainer input{margin-bottom: 30px;}
+
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+/*header*/
+	.logo{margin-left: 10px}
+}
+@media (min-width:1200px) {}
+@media (max-width:800px){
+	.slick-slide .m-test,.stuff-info .nameSvg{width:170px;}
+	.stuff-info .name{  width: 157px;height: 155px;top: 1.1em;margin-left: 11px;}
+	.slick-slide div h3{font-size:20px}
+	.slick-prev{left:-20px}
+	.slick-next{right:-20px}
+	.slick-next, .slick-prev{top:40%}
+}
+@media (max-width:1199px){
+	.slick-next{right:-20px}}
+@media (max-width:665px){
+	.slick-slide .m-test,.stuff-info .nameSvg{width:140px;}
+	.stuff-info .name{  width: 130px;height: 125px;top: 1em;margin-left: 9px;}
+}
+
